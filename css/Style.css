@@ -1,0 +1,180 @@
+body{
+  background: linear-gradient(to right , rgb(22, 22, 22) 60% , rgba(76, 76, 76, 0.978) );
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+nav {
+      background-color: #1d2023;
+      overflow: hidden;
+    }
+
+nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+    }
+
+nav li {
+      padding: 20px;
+    }
+
+nav a {
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+.serv{
+      cursor: pointer;
+    }
+
+nav a:hover {
+  transition: 0.6s;
+  transform: scale(1.1);
+  color: #184ce6;
+}
+
+@media screen and (max-width: 600px) {
+nav ul {
+        flex-direction: column;
+      }
+
+nav li {
+        text-align: center;
+        padding: 15px 0;
+      }
+    }
+
+.circle-image{
+  background-color: black;
+  display: inline-block;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+}
+.circle-image img{
+  background-color: black;
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.circle-image:hover{
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.1);
+  outline: auto;
+  outline-color: aqua;
+}
+
+.head{
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 200;
+  font-family: sans-serif;
+  color: azure;
+}
+
+.head:hover{
+  transform: scale(1.1);
+  transition: 0.6s;
+}
+
+p{
+  margin: 0px;
+  height: 30px;
+  font-family: sans-serif;
+  color: azure;
+  background-color: black;
+}
+
+h3:hover{
+  transform: scale(1.1);
+  transition: 0.6s;
+}
+
+.circle-image1{
+  background-color: black;
+  display: inline-block;
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+  margin: 0 10px;
+}
+.circle-image1 img{
+  background-color: black;
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.circle-image1 img :hover{
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.1);
+  outline: auto;
+  outline-color: aqua;
+}
+
+.circle-image1:hover{
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.1);
+  outline: auto;
+  outline-color: aqua;
+}
+
+h3{
+  font-size: 40px;
+  color: azure;
+  font-family: sans-serif;
+}
+
+hr{
+  height: 7px;
+  background-color: black;
+}
+
+.circle-image1 h3{
+  font-size: 40px;
+  color: azure;
+  font-family: sans-serif;
+}
+
+#btn{
+  background-color: rgb(0, 0, 0);
+  border: none;
+  color: white;
+  padding: none;
+  width: 35px;
+  height: 30px;
+  position: fixed;
+  font-size: 30px;
+  font-weight: 600;
+  right: 1090;
+  bottom: 10px;
+  right: 10px;
+  display: none;
+  border-radius: 16px;
+}
+#btn:hover{
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: #184ce6;
+}
+
+.hide{
+  display: none;
+}
